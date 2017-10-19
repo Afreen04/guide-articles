@@ -4,13 +4,10 @@ title: Acid
 
 ## Acid
 
-This is a stub. [Help our community expand it](https://github.com/freeCodeCamp/guide-articles/tree/master/articles/Computer-Science/Databases/ACID/index.md).
+ACID stands for Atomicity, Consistency, Isolation, Durability. It is a set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc.
 
-[This quick style guide will help ensure your pull request gets accepted](https://github.com/freeCodeCamp/guide-articles/blob/master/README.md).
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+Atomicity: Each transaction is "all or nothing". Either executes succesfully or aborts. No partial executions.
+Consistency: A transaction takes the database from one valid state to another.
+Isolation: Subsequent transactions on a database are excecuted independently of each other.
+Durability: Once a transaction has been committed, it will remain so, even in the event of power loss, crashes, or errors. 
 
